@@ -5,6 +5,12 @@
   </item>
   <item>
     <bitmap
+        android:src="@drawable/splash_backgr"
+        android:tileMode="disabled"
+        android:gravity="center"/>
+  </item>
+  <item>
+    <bitmap
         android:src="@drawable/splash"
         android:tileMode="disabled"
         android:gravity="center"/>
