@@ -5,16 +5,49 @@
              Title="Main Page">
     <StackLayout>
 
-        <Label x:Name="label"
-               Text="Click the Button below"
-               FontSize="Large"
-               VerticalOptions="CenterAndExpand"
-               HorizontalOptions="Center" />
+        <Button 
+            Text=""
+            WidthRequest="60"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            HeightRequest="60"
+            BorderRadius="30"
+            Scale="0.5"
+            Image="favButton.png"
+            Clicked="OnScanClicked"/>
 
-        <Button Text="Click to Rotate Text!"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
-                Clicked="OnButtonClicked" />
+        <Button 
+            Text=""
+            WidthRequest="60"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            HeightRequest="60"
+            BorderRadius="30"
+            Scale="0.5"
+            Image="scanButton.png"
+            Clicked="OnScanClicked" />
+
+        <Button 
+            Text=""
+            WidthRequest="60"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            HeightRequest="60"
+            BorderRadius="30"
+            Scale="0.5"
+            Image="photoButton.png"
+            Clicked="OnPhotoClicked" />
+
+        <Button 
+            Text=""
+            WidthRequest="60"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            HeightRequest="60"
+            BorderRadius="30"
+            Scale="0.5"
+            Image="testButton.png"
+            Clicked="OnTestClicked" />
 
     </StackLayout>
 </ContentPage>

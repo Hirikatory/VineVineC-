@@ -1,14 +1,10 @@
-﻿using System.Threading;
-
+﻿
 using Android.App;
-using Android.Content.PM;
 using Android.Content;
-using Android.Util;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Content.PM;
 using Android.OS;
-using Xamarin.Forms;
+using Android.Runtime;
+using Android.Util;
 using System.Threading.Tasks;
 
 namespace DaWine.Droid

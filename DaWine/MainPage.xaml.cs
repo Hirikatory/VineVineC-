@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace DaWine
@@ -18,9 +14,24 @@ namespace DaWine
             InitializeComponent();
         }
 
-        async void OnButtonClicked(object sender, EventArgs args)
+        private async void OnFavClicked(object sender, EventArgs e)
         {
-            await label.RelRotateTo(360, 1000);
+            await Navigation.PushAsync(new FavPage());
+        }
+
+        private async void OnScanClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ScanPage());
+        }
+
+        private async void OnPhotoClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PhotoPage());
+        }
+
+        private async void OnTestClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TestPage());
         }
 
     }
