@@ -5,6 +5,9 @@
              Title="Main Page">
     <StackLayout>
 
+        <!-- 
+        Дизайн для кнопок на главной странице
+        --!>
         <Button 
             Text=""
             WidthRequest="60"
@@ -13,8 +16,8 @@
             HeightRequest="60"
             BorderRadius="30"
             Scale="0.5"
-            Image="favButton.png"
-            Clicked="OnScanClicked"/>
+            Image="favButton.png" 
+            Clicked="OnFavClicked" />
 
         <Button 
             Text=""

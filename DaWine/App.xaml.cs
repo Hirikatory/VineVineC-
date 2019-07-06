@@ -8,7 +8,7 @@ namespace DaWine
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage()); //Инициализируем навигационную страницу
         }
 
         protected override void OnStart()

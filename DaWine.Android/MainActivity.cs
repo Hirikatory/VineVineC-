@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace DaWine.Droid
 {
-    [Activity(Theme = "@style/MainTheme.Splash", MainLauncher = true, NoHistory = true)]
-    public class SplashActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    [Activity(Theme = "@style/MainTheme.Splash", MainLauncher = true, NoHistory = true)] //Splash activity
+    public class SplashActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity //Class for splash activity
     {
-        static readonly string TAG = "X:" + typeof(SplashActivity).Name;
+        static readonly string TAG = "X:" + typeof(SplashActivity).Name; //Добавляем аргумент "только для чтения"
 
         public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
         {

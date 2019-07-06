@@ -14,6 +14,9 @@ namespace DaWine
             InitializeComponent();
         }
 
+        /*
+         Ниже - код для навигационных кнопок
+         */
         private async void OnFavClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new FavPage());
