@@ -7,8 +7,124 @@
              x:Class="DaWine.TestPage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-      <StackLayout>
-        <Image Source="redwinePage.png"/>
-      </StackLayout>
+      <AbsoluteLayout x:Name="layout">
+          
+            <Image 
+                x:Name="PageBackgroundImage" 
+                Source="redwinePage.png"/>
+          
+            <Button 
+                x:Name="whitewineButton"
+                WidthRequest="80" 
+                Opacity="0.16" 
+                Margin="10,10,10,20"
+                Clicked="whitewineButton_Clicked"/>
+          
+            <Button 
+                x:Name="redwineButton"
+                WidthRequest="90" 
+                Opacity="0.16" 
+                Margin="192,10,10,20" 
+                IsVisible="False"
+                Clicked="redwineButton_Clicked"/>
+          
+            <Button 
+                x:Name="redteaButton"
+                BorderRadius="46" 
+                HeightRequest="92" 
+                WidthRequest="92" 
+                Opacity="0.16" 
+                Margin="10,70,10,20"  
+                Clicked="redteaButton_Clicked"/>
+          
+            <Button 
+                x:Name="shelkovicaButton"
+                BorderRadius="46" 
+                HeightRequest="92" 
+                WidthRequest="92" 
+                Opacity="0.16" 
+                Margin="192,85,10,20"  
+                Clicked="shelkovicaButton_Clicked"/>
+          
+            <Button
+                x:Name="gvozdikaButton"
+                BorderRadius="46" 
+                HeightRequest="92" 
+                WidthRequest="92" 
+                Opacity="0.16" 
+                Margin="182,192,10,20"  
+                Clicked="gvozdikaButton_Clicked"/>
+          
+            <Button 
+                x:Name="legkoeButton"
+                BorderRadius="56"
+                HeightRequest="112" 
+                WidthRequest="112" 
+                Opacity="0.16" 
+                Margin="75,141,10,20"  
+                Clicked="legkoeButton_Clicked"/>
+          
+            <Button 
+                x:Name="pryanoeButton"
+                BorderRadius="56"
+                HeightRequest="112" 
+                WidthRequest="112" 
+                Opacity="0.16" 
+                Margin="24,256,10,20"  
+                Clicked="pryanoeButton_Clicked"/>
+          
+            <Button
+                x:Name="polnoteloeButton"
+                BorderRadius="56"
+                HeightRequest="112" 
+                WidthRequest="112" 
+                Opacity="0.16" 
+                Margin="170,282,10,20"  
+                Clicked="polnoteloeButton_Clicked"/>
+          
+            <Button
+                x:Name="vishnyaButton"
+                BorderRadius="44"
+                HeightRequest="88" 
+                WidthRequest="88" 
+                Opacity="0.16" 
+                Margin="98,360,10,20"  
+                Clicked="vishnyaButton_Clicked"/>
+          
+            <Button
+                x:Name="kofeButton"
+                BorderRadius="44"
+                HeightRequest="88" 
+                WidthRequest="88" 
+                Opacity="0.16" 
+                Margin="31,430,10,20"  
+                Clicked="kofeButton_Clicked"/>
+          
+            <Button
+                x:Name="fruktovoeButton"
+                BorderRadius="56"
+                HeightRequest="112" 
+                WidthRequest="112" 
+                Opacity="0.16" 
+                Margin="170,418,10,20"  
+                Clicked="fruktovoeButton_Clicked"/>
+          
+            <Button
+                x:Name="resetButton"
+                HeightRequest="50" 
+                WidthRequest="112" 
+                Opacity="0.16" 
+                Margin="6,574,10,20"  
+                Clicked="resetButton_Clicked"/>
+          
+            <Button
+                x:Name="nextButton"
+                HeightRequest="50" 
+                WidthRequest="80" 
+                Opacity="0.16" 
+                Margin="200,574,10,20"  
+                Clicked="nextButton_Clicked"/>
+
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
