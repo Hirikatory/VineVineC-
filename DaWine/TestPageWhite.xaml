@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="DaWine.TestPage"
+﻿<ContentPage
+    x:Class="DaWine.TestPageWhite"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -13,12 +12,12 @@
             <Image
                 x:Name="PageBackgroundImage"
                 Aspect="Fill"
-                Source="redwinePage.png" />
+                Source="whitewinePage.png" />
 
             <Button
-                x:Name="whitewineButton"
-                Margin="-62,-26"
-                Clicked="whitewineButton_Clicked"
+                x:Name="redwineButton"
+                Margin="200,-26"
+                Clicked="redwineButton_Clicked"
                 CornerRadius="60"
                 HeightRequest="120"
                 Opacity="0.05"
@@ -26,100 +25,100 @@
                 WidthRequest="240" />
 
             <Button
-                x:Name="redteaButton"
+                x:Name="appleButton"
                 Margin="-50,10"
-                Clicked="redteaButton_Clicked"
+                Clicked="appleButton_Clicked"
                 CornerRadius="114"
                 HeightRequest="228"
-                ImageSource="redteaButton.png"
+                ImageSource="appleButton.png"
                 Opacity="0.7"
                 Scale="0.4"
                 WidthRequest="228" />
 
             <Button
-                x:Name="shelkovicaButton"
+                x:Name="honeyButton"
                 Margin="200,20"
-                Clicked="shelkovicaButton_Clicked"
+                Clicked="honeyButton_Clicked"
                 CornerRadius="114"
                 HeightRequest="228"
-                ImageSource="shelkovicaButton.png"
+                ImageSource="honeyButton.png"
                 Opacity="0.7"
                 Scale="0.4"
                 WidthRequest="228" />
 
             <Button
-                x:Name="gvozdikaButton"
+                x:Name="flowerButton"
                 Margin="180,130"
-                Clicked="gvozdikaButton_Clicked"
+                Clicked="flowerButton_Clicked"
                 CornerRadius="114"
                 HeightRequest="228"
-                Image="gvozdikaButton.png"
+                Image="flowerButton.png"
                 Opacity="0.7"
                 Scale="0.4"
                 WidthRequest="228" />
 
             <Button
-                x:Name="legkoeButton"
+                x:Name="fruitButton"
                 Margin="20,80"
-                Clicked="legkoeButton_Clicked"
+                Clicked="fruitButton_Clicked"
                 CornerRadius="145"
                 HeightRequest="290"
-                Image="legkoeredButton.png"
+                Image="fruitButton.png"
                 Opacity="0.7"
                 Scale="0.4"
                 WidthRequest="290" />
 
             <Button
-                x:Name="pryanoeButton"
+                x:Name="legkoewhiteButton"
                 Margin="-70,190"
-                Clicked="pryanoeButton_Clicked"
+                Clicked="legkoewhiteButton_Clicked"
                 CornerRadius="145"
                 HeightRequest="290"
-                Image="pryanoeButton.png"
+                Image="legkoewhiteButton.png"
                 Opacity="0.7"
                 Scale="0.4"
                 WidthRequest="290" />
 
             <Button
-                x:Name="polnoteloeButton"
+                x:Name="polnoteloewhiteButton"
                 Margin="130,220"
-                Clicked="polnoteloeButton_Clicked"
+                Clicked="polnoteloewhiteButton_Clicked"
                 CornerRadius="145"
                 HeightRequest="290"
-                Image="polnoteloeredButton.png"
+                Image="fullButton.png"
                 Opacity="0.7"
                 Scale="0.38"
                 WidthRequest="290" />
 
             <Button
-                x:Name="vishnyaButton"
+                x:Name="creamButton"
                 Margin="50,300"
-                Clicked="vishnyaButton_Clicked"
+                Clicked="creamButton_Clicked"
                 CornerRadius="114"
                 HeightRequest="228"
-                Image="cherryButton.png"
+                Image="creamButton.png"
                 Opacity="0.7"
                 Scale="0.38"
                 WidthRequest="228" />
 
             <Button
-                x:Name="kofeButton"
+                x:Name="limeButton"
                 Margin="-40,380"
-                Clicked="kofeButton_Clicked"
+                Clicked="limeButton_Clicked"
                 CornerRadius="114"
                 HeightRequest="228"
-                Image="kofeButton.png"
+                Image="limeButton.png"
                 Opacity="0.7"
                 Scale="0.38"
                 WidthRequest="228" />
 
             <Button
-                x:Name="fruktovoeButton"
+                x:Name="freshButton"
                 Margin="170,350"
-                Clicked="fruktovoeButton_Clicked"
+                Clicked="freshButton_Clicked"
                 CornerRadius="145"
                 HeightRequest="290"
-                Image="fruktovoeredButton.png"
+                Image="freshButton.png"
                 Opacity="0.7"
                 Scale="0.38"
                 WidthRequest="290" />

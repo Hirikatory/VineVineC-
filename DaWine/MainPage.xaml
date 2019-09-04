@@ -1,56 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DaWine.MainPage"
-             Title="Main Page"
-             NavigationPage.HasNavigationBar="False">
-    <StackLayout>
-
+<ContentPage
+    x:Class="DaWine.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Main Page"
+    BackgroundImageSource="mainPage"
+    NavigationPage.HasNavigationBar="False">
+    <AbsoluteLayout>
         <!--
-        Дизайн для кнопок на главной странице -->
-        <Button 
-            Text=""
-            WidthRequest="60"
-            VerticalOptions="Start"
+            Дизайн для кнопок на главной странице
+        -->
+        <Button
+            Margin="10,10"
+            Clicked="OnFavClicked"
+            CornerRadius="35"
+            HeightRequest="70"
             HorizontalOptions="Start"
-            HeightRequest="60"
-            BorderRadius="30"
-            Scale="0.5"
-            Image="favButton.png" 
-            Clicked="OnFavClicked" />
+            VerticalOptions="Start"
+            WidthRequest="70"
+            Opacity="0" />
 
-        <Button 
-            Text=""
-            WidthRequest="60"
-            VerticalOptions="CenterAndExpand"
+        <Button
+            Margin="115,120"
+            Clicked="OnScanClicked"
+            CornerRadius="78"
+            HeightRequest="156"
             HorizontalOptions="Center"
-            HeightRequest="60"
-            BorderRadius="30"
-            Scale="0.5"
-            Image="scanButton.png"
-            Clicked="OnScanClicked" />
+            VerticalOptions="Center"
+            WidthRequest="156"
+            Opacity="0"/>
 
-        <Button 
-            Text=""
-            WidthRequest="60"
-            VerticalOptions="CenterAndExpand"
+        <Button
+            Margin="148,286"
+            Clicked="OnPhotoClicked"
+            CornerRadius="45"
+            HeightRequest="90"
             HorizontalOptions="Center"
-            HeightRequest="60"
-            BorderRadius="30"
-            Scale="0.5"
-            Image="photoButton.png"
-            Clicked="OnPhotoClicked" />
+            VerticalOptions="Center"
+            WidthRequest="90"
+            Opacity="0" />
 
-        <Button 
-            Text=""
-            WidthRequest="60"
-            VerticalOptions="CenterAndExpand"
+        <Button
+            Margin="94,390"
+            Clicked="OnTestClicked"
+            CornerRadius="35"
+            HeightRequest="70"
             HorizontalOptions="Center"
-            HeightRequest="60"
-            BorderRadius="30"
-            Scale="0.5"
-            Image="testButton.png"
-            Clicked="OnTestClicked" />
+            VerticalOptions="Center"
+            WidthRequest="200"
+            Opacity="0" />
 
-    </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="DaWine.ScanPage"
+    x:Class="DaWine.ScannedPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -10,30 +10,15 @@
     <ContentPage.Content>
         <AbsoluteLayout>
             <Image
-                x:Name="stolImage"
-                Aspect="Fill"
-                HorizontalOptions="Center"
-                Source="stol.png"
-                VerticalOptions="Center" />
-            <Image
                 x:Name="uiImage"
                 Aspect="Fill"
                 HorizontalOptions="Center"
-                Source="ui.png"
+                Source="uiScanned.png"
                 VerticalOptions="Center" />
             <Button
-                x:Name="scan"
-                Margin="150,518"
-                Clicked="onScanButton_Clicked"
-                HeightRequest="90"
-                Opacity="0"
-                WidthRequest="90" />
-            <Button
-                x:Name="scanAgain"
-                Margin="150,518"
+                Margin="150,515"
                 Clicked="onScanAgainButton_Clicked"
                 HeightRequest="90"
-                IsEnabled="False"
                 Opacity="0"
                 WidthRequest="90" />
             <Button
@@ -47,7 +32,6 @@
                 Margin="260,565"
                 Clicked="onNextButton_Clicked"
                 HeightRequest="60"
-                IsEnabled="False"
                 Opacity="0"
                 WidthRequest="90" />
         </AbsoluteLayout>
